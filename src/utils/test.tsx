@@ -1,0 +1,1 @@
+import React from "react-native/node_modules/@types/react";
