@@ -9,7 +9,7 @@ import { styles } from './styles';
 
 import { Avatar } from '../Avatar';
 
-export type MemberPros = {
+export type MemberProps = {
     id: string;
     username: string;
     avatar_url: string;
@@ -17,7 +17,7 @@ export type MemberPros = {
 }
 
 type Props = {
-    data: MemberPros;
+    data: MemberProps;
 }
 
 export function Member({data}: Props){
