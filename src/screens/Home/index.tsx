@@ -1,6 +1,5 @@
 import React, { useState, useCallback } from 'react';
 import { View, FlatList, Text } from 'react-native';
-import Swipeout from 'react-native-swipeout';
 import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
